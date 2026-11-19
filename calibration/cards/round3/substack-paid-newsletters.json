@@ -1,0 +1,106 @@
+{
+ "project": {
+  "one_liner": "Substack (paid newsletters)",
+  "search_acquisition": false
+ },
+ "primary_type": "community_social",
+ "secondary_type": null,
+ "business": {
+  "data": {
+   "level": "L3"
+  },
+  "state": {
+   "level": "L2"
+  },
+  "action": {
+   "level": "L3"
+  },
+  "network": {
+   "level": "L4"
+  },
+  "workflow": {
+   "level": "L2"
+  },
+  "trust": {
+   "level": "L2"
+  }
+ },
+ "modes": [
+  {
+   "name": "Read subscribed posts",
+   "share": 0.7,
+   "frequency": {
+    "class": "C"
+   },
+   "intent": {
+    "class": "B",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "B"
+   },
+   "experience": {
+    "class": "B",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "F"
+  },
+  {
+   "name": "Browse Notes and discover writers",
+   "share": 0.3,
+   "frequency": {
+    "class": "C"
+   },
+   "intent": {
+    "class": "D",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "B"
+   },
+   "experience": {
+    "class": "B",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "F"
+  }
+ ],
+ "deliverable_ai_replaceable": false,
+ "quality_gates": {}
+}

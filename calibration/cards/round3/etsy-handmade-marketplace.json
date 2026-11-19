@@ -1,0 +1,107 @@
+{
+ "project": {
+  "one_liner": "Etsy (handmade marketplace)",
+  "search_acquisition": true
+ },
+ "primary_type": "transact_own",
+ "secondary_type": "retrieve",
+ "business": {
+  "data": {
+   "level": "L4"
+  },
+  "state": {
+   "level": "L2"
+  },
+  "action": {
+   "level": "L4"
+  },
+  "network": {
+   "level": "L4"
+  },
+  "workflow": {
+   "level": "L1"
+  },
+  "trust": {
+   "level": "L3"
+  }
+ },
+ "modes": [
+  {
+   "name": "Browse and search products",
+   "share": 0.7,
+   "frequency": {
+    "class": "A"
+   },
+   "intent": {
+    "class": "C",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "B"
+   },
+   "experience": {
+    "class": "B",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "D"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "C"
+  },
+  {
+   "name": "Place an order",
+   "share": 0.3,
+   "frequency": {
+    "class": "A"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "B"
+     },
+     "precision": {
+      "class": "E",
+      "recurring": true
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "D"
+  }
+ ],
+ "deliverable_ai_replaceable": false,
+ "quality_gates": {}
+}

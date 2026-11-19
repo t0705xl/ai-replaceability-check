@@ -1,0 +1,85 @@
+{
+ "project": {
+  "one_liner": "Udemy (video courses)",
+  "search_acquisition": true
+ },
+ "primary_type": "practice",
+ "secondary_type": "transact_own",
+ "business": {
+  "data": {
+   "level": "L2"
+  },
+  "state": {
+   "level": "L2"
+  },
+  "action": {
+   "level": "L3"
+  },
+  "network": {
+   "level": "L4"
+  },
+  "workflow": {
+   "level": "L2"
+  },
+  "trust": {
+   "level": "L2"
+  }
+ },
+ "modes": [
+  {
+   "name": "Take a course",
+   "share": 1.0,
+   "frequency": {
+    "class": "B"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "C",
+    "chat_reproducible": true
+   },
+   "steps": [
+    {
+     "share": 0.7,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.3,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "B"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "A"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": true
+}

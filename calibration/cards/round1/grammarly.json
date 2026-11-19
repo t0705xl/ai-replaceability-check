@@ -1,0 +1,86 @@
+{
+ "project": {
+  "one_liner": "Grammarly",
+  "search_acquisition": false
+ },
+ "primary_type": "generate",
+ "secondary_type": null,
+ "business": {
+  "data": {
+   "level": "L2"
+  },
+  "state": {
+   "level": "L2"
+  },
+  "action": {
+   "level": "L2"
+  },
+  "network": {
+   "level": "L1"
+  },
+  "workflow": {
+   "level": "L3"
+  },
+  "trust": {
+   "level": "L1"
+  }
+ },
+ "modes": [
+  {
+   "name": "Real-time checking while writing",
+   "share": 1.0,
+   "frequency": {
+    "class": "D",
+    "automatable": "automatable"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.6,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "C"
+     },
+     "consumption": {
+      "class": "D"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.4,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "C"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "B"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

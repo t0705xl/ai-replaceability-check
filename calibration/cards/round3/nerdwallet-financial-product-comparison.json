@@ -1,0 +1,144 @@
+{
+ "project": {
+  "one_liner": "NerdWallet (financial product comparison)",
+  "search_acquisition": true
+ },
+ "primary_type": "retrieve",
+ "secondary_type": null,
+ "business": {
+  "data": {
+   "level": "L3"
+  },
+  "state": {
+   "level": "L2"
+  },
+  "action": {
+   "level": "L2"
+  },
+  "network": {
+   "level": "L2"
+  },
+  "workflow": {
+   "level": "L1"
+  },
+  "trust": {
+   "level": "L4"
+  }
+ },
+ "modes": [
+  {
+   "name": "Read comparison articles",
+   "share": 0.5,
+   "frequency": {
+    "class": "A"
+   },
+   "intent": {
+    "class": "B",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "B"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "C"
+  },
+  {
+   "name": "Pre-qualify, match, and licensed agent service",
+   "share": 0.3,
+   "frequency": {
+    "class": "A"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "B"
+     },
+     "precision": {
+      "class": "E",
+      "recurring": true
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "D"
+  },
+  {
+   "name": "Check credit score in the app",
+   "share": 0.2,
+   "frequency": {
+    "class": "C"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "B"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "B"
+  }
+ ],
+ "deliverable_ai_replaceable": false,
+ "quality_gates": {}
+}

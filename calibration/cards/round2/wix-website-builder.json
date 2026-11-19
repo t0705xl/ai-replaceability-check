@@ -1,0 +1,122 @@
+{
+ "project": {
+  "one_liner": "Wix (website builder)",
+  "search_acquisition": false
+ },
+ "primary_type": "tool",
+ "secondary_type": null,
+ "business": {
+  "data": {
+   "level": "L2"
+  },
+  "state": {
+   "level": "L4"
+  },
+  "action": {
+   "level": "L3"
+  },
+  "network": {
+   "level": "L1"
+  },
+  "workflow": {
+   "level": "L3"
+  },
+  "trust": {
+   "level": "L2"
+  }
+ },
+ "modes": [
+  {
+   "name": "Build and edit the site",
+   "share": 0.4,
+   "frequency": {
+    "class": "A"
+   },
+   "intent": {
+    "class": "B",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "B",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.3,
+     "input": {
+      "class": "D"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.7,
+     "input": {
+      "class": "F"
+     },
+     "precision": {
+      "class": "D"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "B"
+  },
+  {
+   "name": "Run the business site",
+   "share": 0.6,
+   "frequency": {
+    "class": "C"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "B"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "B"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "E"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

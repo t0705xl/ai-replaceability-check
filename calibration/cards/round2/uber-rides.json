@@ -1,0 +1,118 @@
+{
+ "project": {
+  "one_liner": "Uber (rides)",
+  "search_acquisition": false
+ },
+ "primary_type": "transact_own",
+ "secondary_type": null,
+ "business": {
+  "data": {
+   "level": "L5"
+  },
+  "state": {
+   "level": "L2"
+  },
+  "action": {
+   "level": "L4"
+  },
+  "network": {
+   "level": "L5"
+  },
+  "workflow": {
+   "level": "L2"
+  },
+  "trust": {
+   "level": "L4"
+  }
+ },
+ "modes": [
+  {
+   "name": "Request a ride",
+   "share": 1.0,
+   "frequency": {
+    "class": "C"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "D"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.2,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "B"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.1,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "B"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.6,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "D"
+     },
+     "device": {
+      "class": "C",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.1,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "E",
+      "recurring": true
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "D"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

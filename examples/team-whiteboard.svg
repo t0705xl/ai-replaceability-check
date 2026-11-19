@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="640" viewBox="0 0 1080 640" font-family="-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+<rect width="1080" height="640" fill="#ffffff"/>
+<text x="40" y="44" font-size="22" font-weight="700" fill="#111827">Online team whiteboard with AI-generated sticky notes</text>
+<text x="40" y="72" font-size="14" fill="#374151">Level: <tspan font-weight="700">Hard to replace</tspan>  ·  Structure and execution agree  ·  overall 56.9</text>
+<text x="300" y="139" text-anchor="middle" font-size="15" font-weight="600" fill="#111827">Frontend layer</text>
+<polygon points="300.0,289.0 318.4,296.6 326.0,315.0 318.4,333.4 300.0,341.0 281.6,333.4 274.0,315.0 281.6,296.6" fill="none" stroke="#e5e7eb"/>
+<polygon points="300.0,263.0 336.8,278.2 352.0,315.0 336.8,351.8 300.0,367.0 263.2,351.8 248.0,315.0 263.2,278.2" fill="none" stroke="#e5e7eb"/>
+<polygon points="300.0,237.0 355.2,259.8 378.0,315.0 355.2,370.2 300.0,393.0 244.8,370.2 222.0,315.0 244.8,259.8" fill="none" stroke="#e5e7eb"/>
+<polygon points="300.0,211.0 373.5,241.5 404.0,315.0 373.5,388.5 300.0,419.0 226.5,388.5 196.0,315.0 226.5,241.5" fill="none" stroke="#9ca3af" stroke-dasharray="4 3"/>
+<polygon points="300.0,185.0 391.9,223.1 430.0,315.0 391.9,406.9 300.0,445.0 208.1,406.9 170.0,315.0 208.1,223.1" fill="none" stroke="#e5e7eb"/>
+<line x1="300" y1="315" x2="300.0" y2="185.0" stroke="#e5e7eb"/>
+<line x1="300" y1="315" x2="391.9" y2="223.1" stroke="#e5e7eb"/>
+<line x1="300" y1="315" x2="430.0" y2="315.0" stroke="#e5e7eb"/>
+<line x1="300" y1="315" x2="391.9" y2="406.9" stroke="#e5e7eb"/>
+<line x1="300" y1="315" x2="300.0" y2="445.0" stroke="#e5e7eb"/>
+<line x1="300" y1="315" x2="208.1" y2="406.9" stroke="#e5e7eb"/>
+<line x1="300" y1="315" x2="170.0" y2="315.0" stroke="#e5e7eb"/>
+<line x1="300" y1="315" x2="208.1" y2="223.1" stroke="#e5e7eb"/>
+<polygon points="300.0,237.0 373.5,241.5 346.8,315.0 300.0,315.0 300.0,346.2 300.0,315.0 300.0,315.0 281.6,296.6" fill="#2563eb" fill-opacity="0.18" stroke="#2563eb" stroke-width="2"/>
+<circle cx="300.0" cy="237.0" r="3" fill="#2563eb"/>
+<circle cx="373.5" cy="241.5" r="3" fill="#2563eb"/>
+<circle cx="346.8" cy="315.0" r="3" fill="#2563eb"/>
+<circle cx="300.0" cy="315.0" r="3" fill="#2563eb"/>
+<circle cx="300.0" cy="346.2" r="3" fill="#2563eb"/>
+<circle cx="300.0" cy="315.0" r="3" fill="#2563eb"/>
+<circle cx="300.0" cy="315.0" r="3" fill="#2563eb"/>
+<circle cx="281.6" cy="296.6" r="3" fill="#2563eb"/>
+<text x="300.0" y="161.6" text-anchor="middle" font-size="12" font-weight="400" fill="#374151">Input cost</text>
+<text x="300.0" y="176.6" text-anchor="middle" font-size="11" fill="#6b7280">3</text>
+<text x="408.5" y="206.5" text-anchor="start" font-size="12" font-weight="700" fill="#374151">Frequency &amp; speed</text>
+<text x="408.5" y="221.5" text-anchor="start" font-size="11" fill="#6b7280">4</text>
+<text x="453.4" y="315.0" text-anchor="start" font-size="12" font-weight="400" fill="#374151">Precision control</text>
+<text x="453.4" y="330.0" text-anchor="start" font-size="11" fill="#6b7280">1.8</text>
+<text x="408.5" y="423.5" text-anchor="start" font-size="12" font-weight="400" fill="#374151">Seeking vs browsing</text>
+<text x="408.5" y="438.5" text-anchor="start" font-size="11" fill="#6b7280">0</text>
+<text x="300.0" y="468.4" text-anchor="middle" font-size="12" font-weight="400" fill="#374151">Read once vs monitor</text>
+<text x="300.0" y="483.4" text-anchor="middle" font-size="11" fill="#6b7280">1.2</text>
+<text x="191.5" y="423.5" text-anchor="end" font-size="12" font-weight="400" fill="#374151">Context of use</text>
+<text x="191.5" y="438.5" text-anchor="end" font-size="11" fill="#6b7280">0</text>
+<text x="146.6" y="315.0" text-anchor="end" font-size="12" font-weight="400" fill="#374151">Device capability</text>
+<text x="146.6" y="330.0" text-anchor="end" font-size="11" fill="#6b7280">0</text>
+<text x="191.5" y="206.5" text-anchor="end" font-size="12" font-weight="400" fill="#374151">Experience as the end</text>
+<text x="191.5" y="221.5" text-anchor="end" font-size="11" fill="#6b7280">1</text>
+<text x="790" y="139" text-anchor="middle" font-size="15" font-weight="600" fill="#111827">Business layer</text>
+<polygon points="790.0,289.0 812.5,302.0 812.5,328.0 790.0,341.0 767.5,328.0 767.5,302.0" fill="none" stroke="#e5e7eb"/>
+<polygon points="790.0,263.0 835.0,289.0 835.0,341.0 790.0,367.0 745.0,341.0 745.0,289.0" fill="none" stroke="#e5e7eb"/>
+<polygon points="790.0,237.0 857.5,276.0 857.5,354.0 790.0,393.0 722.5,354.0 722.5,276.0" fill="none" stroke="#e5e7eb"/>
+<polygon points="790.0,211.0 880.1,263.0 880.1,367.0 790.0,419.0 699.9,367.0 699.9,263.0" fill="none" stroke="#9ca3af" stroke-dasharray="4 3"/>
+<polygon points="790.0,185.0 902.6,250.0 902.6,380.0 790.0,445.0 677.4,380.0 677.4,250.0" fill="none" stroke="#e5e7eb"/>
+<line x1="790" y1="315" x2="790.0" y2="185.0" stroke="#e5e7eb"/>
+<line x1="790" y1="315" x2="902.6" y2="250.0" stroke="#e5e7eb"/>
+<line x1="790" y1="315" x2="902.6" y2="380.0" stroke="#e5e7eb"/>
+<line x1="790" y1="315" x2="790.0" y2="445.0" stroke="#e5e7eb"/>
+<line x1="790" y1="315" x2="677.4" y2="380.0" stroke="#e5e7eb"/>
+<line x1="790" y1="315" x2="677.4" y2="250.0" stroke="#e5e7eb"/>
+<polygon points="790.0,289.0 880.1,263.0 790.0,315.0 790.0,393.0 722.5,354.0 767.5,302.0" fill="#7c3aed" fill-opacity="0.18" stroke="#7c3aed" stroke-width="2"/>
+<circle cx="790.0" cy="289.0" r="3" fill="#7c3aed"/>
+<circle cx="880.1" cy="263.0" r="3" fill="#7c3aed"/>
+<circle cx="790.0" cy="315.0" r="3" fill="#7c3aed"/>
+<circle cx="790.0" cy="393.0" r="3" fill="#7c3aed"/>
+<circle cx="722.5" cy="354.0" r="3" fill="#7c3aed"/>
+<circle cx="767.5" cy="302.0" r="3" fill="#7c3aed"/>
+<text x="790.0" y="161.6" text-anchor="middle" font-size="12" font-weight="400" fill="#374151">Proprietary data</text>
+<text x="790.0" y="176.6" text-anchor="middle" font-size="11" fill="#6b7280">1</text>
+<text x="922.8" y="238.3" text-anchor="start" font-size="12" font-weight="700" fill="#374151">Accumulated state</text>
+<text x="922.8" y="253.3" text-anchor="start" font-size="11" fill="#6b7280">4</text>
+<text x="922.8" y="391.7" text-anchor="start" font-size="12" font-weight="400" fill="#374151">Execution</text>
+<text x="922.8" y="406.7" text-anchor="start" font-size="11" fill="#6b7280">0</text>
+<text x="790.0" y="468.4" text-anchor="middle" font-size="12" font-weight="400" fill="#374151">Network &amp; collaboration</text>
+<text x="790.0" y="483.4" text-anchor="middle" font-size="11" fill="#6b7280">3</text>
+<text x="657.2" y="391.7" text-anchor="end" font-size="12" font-weight="400" fill="#374151">Workflow &amp; distribution</text>
+<text x="657.2" y="406.7" text-anchor="end" font-size="11" fill="#6b7280">3</text>
+<text x="657.2" y="238.3" text-anchor="end" font-size="12" font-weight="400" fill="#374151">Trust &amp; accountability</text>
+<text x="657.2" y="253.3" text-anchor="end" font-size="11" fill="#6b7280">1</text>
+<text x="40" y="548" font-size="13" fill="#374151">Relation with AI clients by usage mode (score 100.0 → complement)</text>
+<rect x="40.0" y="560" width="1000.0" height="26" fill="#16a34a" fill-opacity="0.85" stroke="#fff"/>
+<text x="46.0" y="577" font-size="12" fill="#ffffff">D · Team collaboration</text>
+<text x="1040" y="626" text-anchor="end" font-size="10" fill="#9ca3af">dashed ring = 4 (moat line) · red = replaced/thin · amber = data source · gray = parallel · green = executor/system of record</text>
+</svg>

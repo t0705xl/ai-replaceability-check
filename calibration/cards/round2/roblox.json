@@ -1,0 +1,108 @@
+{
+ "project": {
+  "one_liner": "Roblox",
+  "search_acquisition": false
+ },
+ "primary_type": "community_social",
+ "secondary_type": null,
+ "business": {
+  "data": {
+   "level": "L4"
+  },
+  "state": {
+   "level": "L3"
+  },
+  "action": {
+   "level": "L3"
+  },
+  "network": {
+   "level": "L5"
+  },
+  "workflow": {
+   "level": "L1"
+  },
+  "trust": {
+   "level": "L2"
+  }
+ },
+ "modes": [
+  {
+   "name": "Play games",
+   "share": 0.8,
+   "frequency": {
+    "class": "E",
+    "automatable": "must_do_yourself"
+   },
+   "intent": {
+    "class": "D",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "E",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "F"
+     },
+     "precision": {
+      "class": "D"
+     },
+     "consumption": {
+      "class": "E"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "F"
+  },
+  {
+   "name": "Browse games and avatars",
+   "share": 0.2,
+   "frequency": {
+    "class": "D",
+    "automatable": "must_do_yourself"
+   },
+   "intent": {
+    "class": "D",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "B"
+   },
+   "experience": {
+    "class": "D",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "D"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "F"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

@@ -1,0 +1,101 @@
+{
+ "project": {
+  "one_liner": "Tome (AI slide generation)",
+  "search_acquisition": false
+ },
+ "primary_type": "generate",
+ "secondary_type": "tool",
+ "business": {
+  "data": {
+   "level": "L0"
+  },
+  "state": {
+   "level": "L1"
+  },
+  "action": {
+   "level": "L0"
+  },
+  "network": {
+   "level": "L1"
+  },
+  "workflow": {
+   "level": "L0"
+  },
+  "trust": {
+   "level": "L0"
+  }
+ },
+ "modes": [
+  {
+   "name": "Make a presentation",
+   "share": 1.0,
+   "frequency": {
+    "class": "A"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.4,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.4,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "C"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.2,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "B"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "A"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

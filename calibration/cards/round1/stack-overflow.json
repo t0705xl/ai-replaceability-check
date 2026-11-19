@@ -1,0 +1,107 @@
+{
+ "project": {
+  "one_liner": "Stack Overflow",
+  "search_acquisition": true
+ },
+ "primary_type": "community_info",
+ "secondary_type": null,
+ "business": {
+  "data": {
+   "level": "L2"
+  },
+  "state": {
+   "level": "L2"
+  },
+  "action": {
+   "level": "L0"
+  },
+  "network": {
+   "level": "L4"
+  },
+  "workflow": {
+   "level": "L1"
+  },
+  "trust": {
+   "level": "L1"
+  }
+ },
+ "modes": [
+  {
+   "name": "Search for answers",
+   "share": 0.8,
+   "frequency": {
+    "class": "D",
+    "automatable": "automatable"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "B"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "A"
+  },
+  {
+   "name": "Ask and answer",
+   "share": 0.2,
+   "frequency": {
+    "class": "B"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "B",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "B"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "A"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

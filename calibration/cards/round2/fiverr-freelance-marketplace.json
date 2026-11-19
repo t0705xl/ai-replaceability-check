@@ -1,0 +1,101 @@
+{
+ "project": {
+  "one_liner": "Fiverr (freelance marketplace)",
+  "search_acquisition": true
+ },
+ "primary_type": "transact_own",
+ "secondary_type": "retrieve",
+ "business": {
+  "data": {
+   "level": "L3"
+  },
+  "state": {
+   "level": "L2"
+  },
+  "action": {
+   "level": "L4"
+  },
+  "network": {
+   "level": "L4"
+  },
+  "workflow": {
+   "level": "L1"
+  },
+  "trust": {
+   "level": "L3"
+  }
+ },
+ "modes": [
+  {
+   "name": "Hire someone for a task",
+   "share": 1.0,
+   "frequency": {
+    "class": "A"
+   },
+   "intent": {
+    "class": "B",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.4,
+     "input": {
+      "class": "D"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.3,
+     "input": {
+      "class": "B"
+     },
+     "precision": {
+      "class": "C"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.3,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "C"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "A"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": true
+}

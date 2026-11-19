@@ -1,0 +1,122 @@
+{
+ "project": {
+  "one_liner": "Keep (follow-along workouts)",
+  "search_acquisition": false
+ },
+ "primary_type": "practice",
+ "secondary_type": "retrieve",
+ "business": {
+  "data": {
+   "level": "L3"
+  },
+  "state": {
+   "level": "L3"
+  },
+  "action": {
+   "level": "L2"
+  },
+  "network": {
+   "level": "L2"
+  },
+  "workflow": {
+   "level": "L1"
+  },
+  "trust": {
+   "level": "L1"
+  }
+ },
+ "modes": [
+  {
+   "name": "Follow a workout class",
+   "share": 0.7,
+   "frequency": {
+    "class": "B"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "C"
+   },
+   "experience": {
+    "class": "C",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.2,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.8,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "D"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "F"
+  },
+  {
+   "name": "Record runs",
+   "share": 0.3,
+   "frequency": {
+    "class": "B"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "C"
+   },
+   "experience": {
+    "class": "C",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "D"
+     },
+     "device": {
+      "class": "C",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "F"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

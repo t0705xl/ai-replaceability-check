@@ -1,0 +1,124 @@
+{
+ "project": {
+  "one_liner": "Figma",
+  "search_acquisition": false
+ },
+ "primary_type": "tool",
+ "secondary_type": null,
+ "business": {
+  "data": {
+   "level": "L2"
+  },
+  "state": {
+   "level": "L5"
+  },
+  "action": {
+   "level": "L0"
+  },
+  "network": {
+   "level": "L3"
+  },
+  "workflow": {
+   "level": "L4"
+  },
+  "trust": {
+   "level": "L1"
+  }
+ },
+ "modes": [
+  {
+   "name": "Design",
+   "share": 0.8,
+   "frequency": {
+    "class": "E",
+    "automatable": "must_do_yourself"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "B",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.6,
+     "input": {
+      "class": "F"
+     },
+     "precision": {
+      "class": "D"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.4,
+     "input": {
+      "class": "E"
+     },
+     "precision": {
+      "class": "D"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "D"
+  },
+  {
+   "name": "Review and handoff",
+   "share": 0.2,
+   "frequency": {
+    "class": "D",
+    "automatable": "must_do_yourself"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "C"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "E"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

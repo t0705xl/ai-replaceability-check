@@ -1,0 +1,109 @@
+{
+  "project": {
+    "one_liner": "ai-replaceability-check (this skill) as a standalone product",
+    "search_acquisition": false
+  },
+  "primary_type": "generate",
+  "secondary_type": null,
+  "deliverable_ai_replaceable": false,
+  "business": {
+    "data": {
+      "level": "L2"
+    },
+    "state": {
+      "level": "L0"
+    },
+    "action": {
+      "level": "L0"
+    },
+    "network": {
+      "level": "L0"
+    },
+    "workflow": {
+      "level": "L1"
+    },
+    "trust": {
+      "level": "L0"
+    }
+  },
+  "assumptions": [
+    "Evaluated as if sold as its own product, not as a free open-source skill [assumed]"
+  ],
+  "modes": [
+    {
+      "name": "Evaluate an idea",
+      "share": 1.0,
+      "relation": {
+        "class": "A",
+        "evidence": "Anyone can paste this framework into an AI client; the skill itself runs inside AI clients"
+      },
+      "frequency": {
+        "class": "A"
+      },
+      "intent": {
+        "class": "A"
+      },
+      "scenario": {
+        "class": "A"
+      },
+      "experience": {
+        "class": "A",
+        "chat_reproducible": true
+      },
+      "steps": [
+        {
+          "share": 0.3,
+          "input": {
+            "class": "A"
+          },
+          "precision": {
+            "class": "A"
+          },
+          "consumption": {
+            "class": "A"
+          },
+          "device": {
+            "class": "A"
+          },
+          "desc": "Describe the idea"
+        },
+        {
+          "share": 0.5,
+          "input": {
+            "class": "A"
+          },
+          "precision": {
+            "class": "A"
+          },
+          "consumption": {
+            "class": "B"
+          },
+          "device": {
+            "class": "A"
+          },
+          "desc": "Read the report"
+        },
+        {
+          "share": 0.2,
+          "input": {
+            "class": "A"
+          },
+          "precision": {
+            "class": "A"
+          },
+          "consumption": {
+            "class": "A"
+          },
+          "device": {
+            "class": "A"
+          },
+          "desc": "Look at the chart"
+        }
+      ]
+    }
+  ],
+  "ai_habit": {
+    "class": "A"
+  },
+  "quality_gates": {}
+}

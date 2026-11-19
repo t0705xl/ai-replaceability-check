@@ -1,0 +1,86 @@
+{
+ "project": {
+  "one_liner": "Duolingo",
+  "search_acquisition": false
+ },
+ "primary_type": "practice",
+ "secondary_type": null,
+ "business": {
+  "data": {
+   "level": "L4"
+  },
+  "state": {
+   "level": "L4"
+  },
+  "action": {
+   "level": "L0"
+  },
+  "network": {
+   "level": "L2"
+  },
+  "workflow": {
+   "level": "L0"
+  },
+  "trust": {
+   "level": "L1"
+  }
+ },
+ "modes": [
+  {
+   "name": "Daily practice",
+   "share": 1.0,
+   "frequency": {
+    "class": "E",
+    "automatable": "must_do_yourself"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "B"
+   },
+   "experience": {
+    "class": "C",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.8,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.2,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "F"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

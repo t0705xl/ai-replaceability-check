@@ -1,0 +1,123 @@
+{
+ "project": {
+  "one_liner": "Notion",
+  "search_acquisition": false
+ },
+ "primary_type": "record",
+ "secondary_type": "tool",
+ "business": {
+  "data": {
+   "level": "L3"
+  },
+  "state": {
+   "level": "L5"
+  },
+  "action": {
+   "level": "L2"
+  },
+  "network": {
+   "level": "L3"
+  },
+  "workflow": {
+   "level": "L4"
+  },
+  "trust": {
+   "level": "L2"
+  }
+ },
+ "modes": [
+  {
+   "name": "Daily notes and updates",
+   "share": 0.6,
+   "frequency": {
+    "class": "D",
+    "automatable": "must_do_yourself"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "B",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.5,
+     "input": {
+      "class": "B"
+     },
+     "precision": {
+      "class": "C"
+     },
+     "consumption": {
+      "class": "B"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.5,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "B"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "E"
+  },
+  {
+   "name": "Team reference",
+   "share": 0.4,
+   "frequency": {
+    "class": "C"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "E"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

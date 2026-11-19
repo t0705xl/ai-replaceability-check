@@ -1,0 +1,412 @@
+[
+ {
+  "round": "round1",
+  "file": "round1/chegg-homework-answers.json",
+  "name": "Chegg (homework answers)",
+  "outcome": 1,
+  "outcome_label": "collapsed",
+  "evidence": "Quarterly revenue 77.6% below its Q4 2021 peak; filings cite generative AI and Google AI Overviews; Q3 2026 revenue -40% YoY",
+  "expected_level": "High risk",
+  "expected_overall": 11.5
+ },
+ {
+  "round": "round1",
+  "file": "round1/stack-overflow.json",
+  "name": "Stack Overflow",
+  "outcome": 1,
+  "outcome_label": "collapsed",
+  "evidence": "965 new questions in Sep 2026 vs 207,169 in Mar 2014; decline began before ChatGPT, then accelerated",
+  "expected_level": "High risk",
+  "expected_overall": 23.7
+ },
+ {
+  "round": "round1",
+  "file": "round1/tome-ai-slide-generation.json",
+  "name": "Tome (AI slide generation)",
+  "outcome": 1,
+  "outcome_label": "collapsed",
+  "evidence": "Slides product shut down on Apr 30, 2025 at roughly 25M users; team pivoted to a CRM",
+  "expected_level": "High risk",
+  "expected_overall": 9.1
+ },
+ {
+  "round": "round1",
+  "file": "round1/jasper-early-ai-copywriting.json",
+  "name": "Jasper (early AI copywriting)",
+  "outcome": 1,
+  "outcome_label": "collapsed",
+  "evidence": "CEO departure and 20% valuation cut in 2023, layoffs in 2025; survived only by moving upmarket",
+  "expected_level": "High risk",
+  "expected_overall": 10.0
+ },
+ {
+  "round": "round1",
+  "file": "round1/quizlet-flashcards.json",
+  "name": "Quizlet (flashcards)",
+  "outcome": 2,
+  "outcome_label": "pressured",
+  "evidence": "Web visits -29% (1.1B to 782.7M)",
+  "expected_level": "High risk",
+  "expected_overall": 33.1
+ },
+ {
+  "round": "round1",
+  "file": "round1/grammarly.json",
+  "name": "Grammarly",
+  "outcome": 2,
+  "outcome_label": "pressured",
+  "evidence": "Revenue growth fell from 43% to about 12%; rebranded as Superhuman in 2025",
+  "expected_level": "High risk",
+  "expected_overall": 23.2
+ },
+ {
+  "round": "round1",
+  "file": "round1/duolingo.json",
+  "name": "Duolingo",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Q2 2026 DAU +23% to 58.7M; heavy AI-chatbot users spend more time in the app",
+  "expected_level": "Hard to replace",
+  "expected_overall": 49.4
+ },
+ {
+  "round": "round1",
+  "file": "round1/pinterest.json",
+  "name": "Pinterest",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Q1 2026 MAU 631M (+11%), revenue +18%",
+  "expected_level": "One moat",
+  "expected_overall": 36.8
+ },
+ {
+  "round": "round1",
+  "file": "round1/booking-com.json",
+  "name": "Booking.com",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Q3 2026 room nights +7%; LLM referrals well below 1% of room nights",
+  "expected_level": "Hard to replace",
+  "expected_overall": 56.4
+ },
+ {
+  "round": "round1",
+  "file": "round1/strava.json",
+  "name": "Strava",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "180M+ users; 2025 revenue about $490M (+32%)",
+  "expected_level": "Hard to replace",
+  "expected_overall": 65.2
+ },
+ {
+  "round": "round1",
+  "file": "round1/reddit.json",
+  "name": "Reddit",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "121M DAU, $252M net income; content licensed to Google and OpenAI",
+  "expected_level": "Hard to replace",
+  "expected_overall": 53.6
+ },
+ {
+  "round": "round1",
+  "file": "round1/figma.json",
+  "name": "Figma",
+  "outcome": 4,
+  "outcome_label": "benefiting",
+  "evidence": "Q2 2026 revenue +48%, third straight quarter of acceleration; management calls AI a tailwind",
+  "expected_level": "Hard to replace",
+  "expected_overall": 65.9
+ },
+ {
+  "round": "round1",
+  "file": "round1/canva.json",
+  "name": "Canva",
+  "outcome": 4,
+  "outcome_label": "benefiting",
+  "evidence": "$4B ARR, 265M MAU; ChatGPT drives new design projects (growth forecast cut to 20% on AI costs)",
+  "expected_level": "One moat",
+  "expected_overall": 50.3
+ },
+ {
+  "round": "round1",
+  "file": "round1/notion.json",
+  "name": "Notion",
+  "outcome": 4,
+  "outcome_label": "benefiting",
+  "evidence": "About $865M ARR in Jul 2026 (+82% YoY); over half of ARR from AI-enabled customers",
+  "expected_level": "Hard to replace",
+  "expected_overall": 58.5
+ },
+ {
+  "round": "round2",
+  "file": "round2/uber-rides.json",
+  "name": "Uber (rides)",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Q3 2026 trips +16%, monthly active consumers +14%, five straight quarters of 20%+ gross bookings growth",
+  "expected_level": "Hard to replace",
+  "expected_overall": 67.2
+ },
+ {
+  "round": "round2",
+  "file": "round2/meituan-food-delivery.json",
+  "name": "Meituan food delivery",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Sep 2026 daily orders -4–5% YoY, driven by the end of a subsidy war, not AI [confounder]",
+  "expected_level": "Hard to replace",
+  "expected_overall": 66.5
+ },
+ {
+  "round": "round2",
+  "file": "round2/roblox.json",
+  "name": "Roblox",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Q3 2026 DAU -9%, bookings -12%, attributed to an exceptional 2025 base; two-year DAU +55% [confounder]",
+  "expected_level": "Hard to replace",
+  "expected_overall": 68.7
+ },
+ {
+  "round": "round2",
+  "file": "round2/spotify.json",
+  "name": "Spotify",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Q3 2026 MAU 788M (+11%), subscribers +9%, revenue +16%",
+  "expected_level": "Hard to replace",
+  "expected_overall": 65.1
+ },
+ {
+  "round": "round2",
+  "file": "round2/oura-ring.json",
+  "name": "Oura Ring",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Revenue +74% for the nine months to Jun 2026; ~90% growth expected for the year",
+  "expected_level": "Hard to replace",
+  "expected_overall": 60.6
+ },
+ {
+  "round": "round2",
+  "file": "round2/youdao-dictionary-pen.json",
+  "name": "Youdao Dictionary Pen",
+  "outcome": 2,
+  "outcome_label": "pressured",
+  "evidence": "Youdao smart-device revenue -42.6% (Q1 2026) and -31.5% (Q2); mixed causes: price war, deliberate retreat, AI-driven industry shift",
+  "expected_level": "High risk",
+  "expected_overall": 16.2
+ },
+ {
+  "round": "round2",
+  "file": "round2/zhihu.json",
+  "name": "Zhihu",
+  "outcome": 2,
+  "outcome_label": "pressured",
+  "evidence": "Revenue -22% (Q3 2025) and -10.7% (Q1 2026); paying members down; AI attribution indirect",
+  "expected_level": "High risk",
+  "expected_overall": 34.2
+ },
+ {
+  "round": "round2",
+  "file": "round2/xiaohongshu-rednote.json",
+  "name": "Xiaohongshu (RedNote)",
+  "outcome": 2,
+  "outcome_label": "pressured",
+  "evidence": "MAU 400M+, but total time spent -1% and time per user -4% in May 2026, the first decline since 2020; Nomura attributes it to users turning to AI for information [mild]",
+  "expected_level": "One moat",
+  "expected_overall": 54.9
+ },
+ {
+  "round": "round2",
+  "file": "round2/fiverr-freelance-marketplace.json",
+  "name": "Fiverr (freelance marketplace)",
+  "outcome": 1,
+  "outcome_label": "collapsed",
+  "evidence": "Q3 2026 active buyers -25.8%, marketplace revenue -24.7%; CEO calls SEO nearly dead and says AI is absorbing low-value tasks",
+  "expected_level": "High risk",
+  "expected_overall": 36.0
+ },
+ {
+  "round": "round2",
+  "file": "round2/shutterstock-stock-images.json",
+  "name": "Shutterstock (stock images)",
+  "outcome": 2,
+  "outcome_label": "pressured",
+  "evidence": "Revenue -18% (Q1 2026) and -17% (Q2); subscribers down; Getty cites AI search and generative AI",
+  "expected_level": "High risk",
+  "expected_overall": 30.9
+ },
+ {
+  "round": "round2",
+  "file": "round2/yelp-local-reviews.json",
+  "name": "Yelp (local reviews)",
+  "outcome": 2,
+  "outcome_label": "pressured",
+  "evidence": "Q3 2026 revenue -1%, ad revenue -6%, ad clicks -8%; AI data-licensing revenue +82% but small",
+  "expected_level": "High risk",
+  "expected_overall": 35.2
+ },
+ {
+  "round": "round2",
+  "file": "round2/udemy-video-courses.json",
+  "name": "Udemy (video courses)",
+  "outcome": 2,
+  "outcome_label": "pressured",
+  "evidence": "Q1 2026 revenue -4%, consumer segment -19% (transactional -30%); merged into Coursera in May 2026",
+  "expected_level": "High risk",
+  "expected_overall": 30.2
+ },
+ {
+  "round": "round2",
+  "file": "round2/keep-follow-along-workouts.json",
+  "name": "Keep (follow-along workouts)",
+  "outcome": 2,
+  "outcome_label": "pressured",
+  "evidence": "MAU down from 22.5M to 18.6M (36.4M peak in 2022); online membership revenue -26.9%; decline predates AI [confounder]",
+  "expected_level": "High risk",
+  "expected_overall": 42.5
+ },
+ {
+  "round": "round2",
+  "file": "round2/wix-website-builder.json",
+  "name": "Wix (website builder)",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Q3 2026 revenue +13%, bookings +11%, driven largely by the acquired AI builder Base44; agency channel slowing",
+  "expected_level": "One moat",
+  "expected_overall": 46.8
+ },
+ {
+  "round": "round3",
+  "file": "round3/bilibili.json",
+  "name": "Bilibili",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Q2 2026 DAU 117M (+7%), total time +14%, revenue +8%; AI-knowledge content time +72%",
+  "expected_level": "Hard to replace",
+  "expected_overall": 53.7
+ },
+ {
+  "round": "round3",
+  "file": "round3/linkedin.json",
+  "name": "LinkedIn",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "FY2026 revenue +11%; double-digit member growth; AI recruiter tools driving revenue",
+  "expected_level": "Hard to replace",
+  "expected_overall": 60.0
+ },
+ {
+  "round": "round3",
+  "file": "round3/nextdoor-neighborhood-network.json",
+  "name": "Nextdoor (neighborhood network)",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Q3 2026 weekly actives 24.5M (+14%, third straight quarter of growth), revenue +14%",
+  "expected_level": "One moat",
+  "expected_overall": 45.1
+ },
+ {
+  "round": "round3",
+  "file": "round3/substack-paid-newsletters.json",
+  "name": "Substack (paid newsletters)",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "5M+ paid subscriptions; ~35M monthly actives (about 20M in 2025)",
+  "expected_level": "One moat",
+  "expected_overall": 47.3
+ },
+ {
+  "round": "round3",
+  "file": "round3/discord.json",
+  "name": "Discord",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "200M+ MAU and growing; IPO delay is a capital-markets factor",
+  "expected_level": "Hard to replace",
+  "expected_overall": 59.4
+ },
+ {
+  "round": "round3",
+  "file": "round3/quora.json",
+  "name": "Quora",
+  "outcome": 2,
+  "outcome_label": "pressured",
+  "evidence": "Traffic down YoY; answer contributors -13%; community diluted by AI content",
+  "expected_level": "High risk",
+  "expected_overall": 25.8
+ },
+ {
+  "round": "round3",
+  "file": "round3/smzdm-deal-sharing-community.json",
+  "name": "SMZDM (deal-sharing community)",
+  "outcome": 2,
+  "outcome_label": "pressured",
+  "evidence": "Revenue +2.8% for the first three quarters of 2026, but AI-related revenue rose from 32M to 108M RMB, implying the legacy business fell about 7%",
+  "expected_level": "High risk",
+  "expected_overall": 31.9
+ },
+ {
+  "round": "round3",
+  "file": "round3/wikipedia-readers.json",
+  "name": "Wikipedia (readers)",
+  "outcome": 2,
+  "outcome_label": "pressured",
+  "evidence": "Human pageviews -8% YoY; the Foundation attributes it to AI search summaries",
+  "expected_level": "High risk",
+  "expected_overall": 33.0
+ },
+ {
+  "round": "round3",
+  "file": "round3/tripadvisor-reviews-site.json",
+  "name": "Tripadvisor (reviews site)",
+  "outcome": 1,
+  "outcome_label": "collapsed",
+  "evidence": "Q3 2026 Hotels & Other revenue -23%; $370M goodwill impairment attributed to lasting traffic loss from search changes",
+  "expected_level": "High risk",
+  "expected_overall": 29.0
+ },
+ {
+  "round": "round3",
+  "file": "round3/glassdoor-company-reviews.json",
+  "name": "Glassdoor (company reviews)",
+  "outcome": 2,
+  "outcome_label": "pressured",
+  "evidence": "Merged into Indeed in Jul 2026 alongside AI-framed layoffs; no standalone usage data [weak evidence]",
+  "expected_level": "High risk",
+  "expected_overall": 27.0
+ },
+ {
+  "round": "round3",
+  "file": "round3/nerdwallet-financial-product-comparison.json",
+  "name": "NerdWallet (financial product comparison)",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Q3 2026 revenue +11% (loans, deposits); credit-card and SMB lines hit by organic-search pressure; weak Q4 guide due to auto insurance [confounder]",
+  "expected_level": "One moat",
+  "expected_overall": 30.2
+ },
+ {
+  "round": "round3",
+  "file": "round3/zillow-listings.json",
+  "name": "Zillow (listings)",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Q3 2026 revenue +7% in a weak housing market; monthly uniques -3%; ~80% of traffic is direct",
+  "expected_level": "Hard to replace",
+  "expected_overall": 42.6
+ },
+ {
+  "round": "round3",
+  "file": "round3/etsy-handmade-marketplace.json",
+  "name": "Etsy (handmade marketplace)",
+  "outcome": 3,
+  "outcome_label": "resilient",
+  "evidence": "Q3 2026 GMS +8.8%; active buyers grew YoY for the first time in two years",
+  "expected_level": "Hard to replace",
+  "expected_overall": 46.8
+ }
+]

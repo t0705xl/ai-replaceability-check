@@ -1,0 +1,122 @@
+{
+ "project": {
+  "one_liner": "Tripadvisor (reviews site)",
+  "search_acquisition": true
+ },
+ "primary_type": "community_info",
+ "secondary_type": "retrieve",
+ "business": {
+  "data": {
+   "level": "L4"
+  },
+  "state": {
+   "level": "L1"
+  },
+  "action": {
+   "level": "L1"
+  },
+  "network": {
+   "level": "L4"
+  },
+  "workflow": {
+   "level": "L1"
+  },
+  "trust": {
+   "level": "L2"
+  }
+ },
+ "modes": [
+  {
+   "name": "Read reviews to decide",
+   "share": 0.7,
+   "frequency": {
+    "class": "A"
+   },
+   "intent": {
+    "class": "B",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.5,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.5,
+     "input": {
+      "class": "D"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "C"
+  },
+  {
+   "name": "Compare prices and click out to book",
+   "share": 0.3,
+   "frequency": {
+    "class": "A"
+   },
+   "intent": {
+    "class": "B",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "B"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "A"
+  }
+ ],
+ "deliverable_ai_replaceable": false,
+ "quality_gates": {}
+}

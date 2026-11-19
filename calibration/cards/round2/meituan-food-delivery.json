@@ -1,0 +1,103 @@
+{
+ "project": {
+  "one_liner": "Meituan food delivery",
+  "search_acquisition": false
+ },
+ "primary_type": "transact_own",
+ "secondary_type": null,
+ "business": {
+  "data": {
+   "level": "L5"
+  },
+  "state": {
+   "level": "L2"
+  },
+  "action": {
+   "level": "L5"
+  },
+  "network": {
+   "level": "L5"
+  },
+  "workflow": {
+   "level": "L3"
+  },
+  "trust": {
+   "level": "L3"
+  }
+ },
+ "modes": [
+  {
+   "name": "Order food delivery",
+   "share": 1.0,
+   "frequency": {
+    "class": "D",
+    "automatable": "must_do_yourself"
+   },
+   "intent": {
+    "class": "C",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "B",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.5,
+     "input": {
+      "class": "D"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.2,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "E",
+      "recurring": true
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.3,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "D"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "D"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

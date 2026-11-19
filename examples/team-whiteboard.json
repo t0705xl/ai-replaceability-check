@@ -1,0 +1,107 @@
+{
+  "project": {
+    "one_liner": "Online team whiteboard with AI-generated sticky notes",
+    "search_acquisition": false
+  },
+  "primary_type": "tool",
+  "secondary_type": null,
+  "deliverable_ai_replaceable": false,
+  "business": {
+    "data": {
+      "level": "L1"
+    },
+    "state": {
+      "level": "L4"
+    },
+    "action": {
+      "level": "L0"
+    },
+    "network": {
+      "level": "L3"
+    },
+    "workflow": {
+      "level": "L3"
+    },
+    "trust": {
+      "level": "L1"
+    }
+  },
+  "modes": [
+    {
+      "name": "Team collaboration",
+      "share": 1.0,
+      "relation": {
+        "class": "D",
+        "evidence": "AI drafts notes; editing and arranging happen on the board"
+      },
+      "frequency": {
+        "class": "D",
+        "automatable": "must_do_yourself"
+      },
+      "intent": {
+        "class": "A"
+      },
+      "scenario": {
+        "class": "A"
+      },
+      "experience": {
+        "class": "B",
+        "chat_reproducible": false
+      },
+      "steps": [
+        {
+          "share": 0.6,
+          "input": {
+            "class": "F"
+          },
+          "precision": {
+            "class": "C"
+          },
+          "consumption": {
+            "class": "B"
+          },
+          "device": {
+            "class": "A"
+          },
+          "desc": "Drag notes and draw connectors"
+        },
+        {
+          "share": 0.2,
+          "input": {
+            "class": "A"
+          },
+          "precision": {
+            "class": "A"
+          },
+          "consumption": {
+            "class": "C"
+          },
+          "device": {
+            "class": "A"
+          },
+          "desc": "Watch teammates' live changes"
+        },
+        {
+          "share": 0.2,
+          "input": {
+            "class": "A"
+          },
+          "precision": {
+            "class": "A"
+          },
+          "consumption": {
+            "class": "A"
+          },
+          "device": {
+            "class": "A"
+          },
+          "desc": "Generate draft notes with AI"
+        }
+      ]
+    }
+  ],
+  "ai_habit": {
+    "class": "A"
+  },
+  "quality_gates": {}
+}

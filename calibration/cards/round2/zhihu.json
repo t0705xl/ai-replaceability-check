@@ -1,0 +1,107 @@
+{
+ "project": {
+  "one_liner": "Zhihu",
+  "search_acquisition": true
+ },
+ "primary_type": "community_info",
+ "secondary_type": null,
+ "business": {
+  "data": {
+   "level": "L2"
+  },
+  "state": {
+   "level": "L2"
+  },
+  "action": {
+   "level": "L0"
+  },
+  "network": {
+   "level": "L4"
+  },
+  "workflow": {
+   "level": "L1"
+  },
+  "trust": {
+   "level": "L1"
+  }
+ },
+ "modes": [
+  {
+   "name": "Search and read answers",
+   "share": 0.6,
+   "frequency": {
+    "class": "C"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "B"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "A"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "A"
+  },
+  {
+   "name": "Browse the recommendation feed",
+   "share": 0.4,
+   "frequency": {
+    "class": "D",
+    "automatable": "must_do_yourself"
+   },
+   "intent": {
+    "class": "D",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "B"
+   },
+   "experience": {
+    "class": "D",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "D"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "F"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

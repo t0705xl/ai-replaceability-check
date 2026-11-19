@@ -1,0 +1,245 @@
+{
+  "project": {
+    "one_liner": "Generates a travel itinerary for a destination and lets you adjust it on a map",
+    "target_users": "Young independent travelers [stated]",
+    "market": "Mainland China",
+    "rival_ai_clients": [
+      "Doubao",
+      "DeepSeek"
+    ],
+    "acquisition": "App stores and social sharing [assumed]",
+    "search_acquisition": false
+  },
+  "launch_features": [
+    "Itinerary generation",
+    "Hotel list with live prices",
+    "Drag-to-edit itinerary on a map",
+    "Group voting with travel companions",
+    "Link out to book hotels on a third-party platform",
+    "Lock-screen itinerary card"
+  ],
+  "roadmap_features": [
+    "Own guesthouse inventory"
+  ],
+  "assumptions": [
+    "Hotel prices and availability come from a third-party platform API [assumed]",
+    "Bookings are completed on the third-party platform [assumed]"
+  ],
+  "value_realization": {
+    "type": "mixed",
+    "note": "Itinerary management happens in the product; booking happens on the third-party platform"
+  },
+  "primary_type": "generate",
+  "secondary_type": "tool",
+  "type_checks": {
+    "candidates": {
+      "generate": "Itinerary generation",
+      "retrieve": "Hotel list with live prices",
+      "tool": "Drag-to-edit itinerary on a map"
+    },
+    "removal_test": {
+      "generate": "Without it the product breaks: users come to get an itinerary",
+      "retrieve": "Removable; 15% of activity, below the secondary threshold",
+      "tool": "Removable but clearly worse; 45% of activity, so it is the secondary type"
+    },
+    "pitch_check": "The user describes it as 'plans your trip for you', consistent with generate [stated]",
+    "not_transaction": "Booking is only a link out to a third-party platform",
+    "subtype": null
+  },
+  "deliverable_ai_replaceable": false,
+  "business": {
+    "data": {
+      "level": "L3",
+      "evidence": "Live prices and availability require a partner API [assumed]"
+    },
+    "state": {
+      "level": "L3",
+      "evidence": "Users keep maintaining their itineraries [inferred]"
+    },
+    "action": {
+      "level": "L1",
+      "evidence": "Booking links out to a third-party platform [assumed]"
+    },
+    "network": {
+      "level": "L3",
+      "evidence": "Travel companions vote on itinerary changes together [stated]"
+    },
+    "workflow": {
+      "level": "L0",
+      "evidence": "Standalone app with no integrations [inferred]"
+    },
+    "trust": {
+      "level": "L1",
+      "evidence": "Users can fix itinerary mistakes themselves [inferred]"
+    }
+  },
+  "modes": [
+    {
+      "name": "Pre-trip planning",
+      "share": 0.5,
+      "next": "Book hotels on the third-party platform",
+      "relation": {
+        "class": "A",
+        "evidence": "AI clients can generate itineraries and call booking platforms directly for live prices [inferred]"
+      },
+      "frequency": {
+        "class": "A",
+        "evidence": "A few trips a year [inferred]"
+      },
+      "intent": {
+        "class": "B",
+        "evidence": "Knows the destination, needs to choose hotels and sights [inferred]"
+      },
+      "scenario": {
+        "class": "A",
+        "evidence": "Plans at home on phone or laptop [inferred]"
+      },
+      "experience": {
+        "class": "B",
+        "chat_reproducible": false,
+        "evidence": "Planning with companions is fun, but it is mainly a means to travel [inferred]"
+      },
+      "steps": [
+        {
+          "desc": "Enter destination, dates, party size → generate itinerary → draft itinerary",
+          "share": 0.2,
+          "input": {
+            "class": "A",
+            "evidence": "One sentence is enough"
+          },
+          "precision": {
+            "class": "A",
+            "evidence": "A rough first draft is fine"
+          },
+          "consumption": {
+            "class": "A",
+            "evidence": "Read once, then move to editing"
+          },
+          "device": {
+            "class": "A",
+            "evidence": "No special capability"
+          }
+        },
+        {
+          "desc": "Browse hotel list with live prices → pick one → link out to book",
+          "share": 0.3,
+          "input": {
+            "class": "C",
+            "evidence": "Choose among a few hotels"
+          },
+          "precision": {
+            "class": "B",
+            "evidence": "Price and dates are easy to state"
+          },
+          "consumption": {
+            "class": "A",
+            "evidence": "Done once chosen"
+          },
+          "device": {
+            "class": "A",
+            "evidence": "No special capability"
+          }
+        },
+        {
+          "desc": "Drag sights and days on the map → updated itinerary",
+          "share": 0.5,
+          "input": {
+            "class": "F",
+            "evidence": "Drag points on the map to reorder [stated]"
+          },
+          "precision": {
+            "class": "C",
+            "evidence": "Change one day, leave the others untouched"
+          },
+          "consumption": {
+            "class": "B",
+            "evidence": "Revisited before departure"
+          },
+          "device": {
+            "class": "A",
+            "evidence": "No special capability"
+          }
+        }
+      ]
+    },
+    {
+      "name": "During the trip",
+      "share": 0.5,
+      "next": "Follow the itinerary",
+      "relation": {
+        "class": "B",
+        "evidence": "AI clients can also keep and show an itinerary and adjust it on request [inferred]"
+      },
+      "frequency": {
+        "class": "C",
+        "evidence": "Intense during the trip but only medium on an annual average [inferred]"
+      },
+      "intent": {
+        "class": "A",
+        "evidence": "Check today's plan"
+      },
+      "scenario": {
+        "class": "C",
+        "evidence": "Glancing at the map while walking [inferred]"
+      },
+      "experience": {
+        "class": "A",
+        "chat_reproducible": false,
+        "evidence": "Only to confirm plans"
+      },
+      "steps": [
+        {
+          "desc": "Check today's itinerary and order status",
+          "share": 0.6,
+          "input": {
+            "class": "A",
+            "evidence": "Open and look"
+          },
+          "precision": {
+            "class": "A",
+            "evidence": "Viewing only"
+          },
+          "consumption": {
+            "class": "D",
+            "evidence": "Lock-screen itinerary card [stated]"
+          },
+          "device": {
+            "class": "B",
+            "platform_generic": false,
+            "evidence": "Lock-screen card and reminders"
+          }
+        },
+        {
+          "desc": "Adjust one day on the fly",
+          "share": 0.4,
+          "input": {
+            "class": "F",
+            "evidence": "Drag on the map"
+          },
+          "precision": {
+            "class": "C",
+            "evidence": "Only today changes"
+          },
+          "consumption": {
+            "class": "B",
+            "evidence": "Re-checked after the change"
+          },
+          "device": {
+            "class": "A",
+            "evidence": "No special capability"
+          }
+        }
+      ]
+    }
+  ],
+  "ai_habit": {
+    "class": "B",
+    "evidence": "Young users who use AI occasionally [inferred]"
+  },
+  "quality_gates": {
+    "visual": "unknown",
+    "performance": "unknown",
+    "stability": "unknown",
+    "accessibility": "unknown"
+  }
+}

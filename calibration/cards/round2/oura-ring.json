@@ -1,0 +1,86 @@
+{
+ "project": {
+  "one_liner": "Oura Ring",
+  "search_acquisition": false
+ },
+ "primary_type": "record",
+ "secondary_type": "practice",
+ "business": {
+  "data": {
+   "level": "L4"
+  },
+  "state": {
+   "level": "L4"
+  },
+  "action": {
+   "level": "L0"
+  },
+  "network": {
+   "level": "L1"
+  },
+  "workflow": {
+   "level": "L2"
+  },
+  "trust": {
+   "level": "L3"
+  }
+ },
+ "modes": [
+  {
+   "name": "Check body data daily",
+   "share": 1.0,
+   "frequency": {
+    "class": "D",
+    "automatable": "must_do_yourself"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "B"
+   },
+   "experience": {
+    "class": "C",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.6,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "D"
+     },
+     "device": {
+      "class": "D",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.4,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "B"
+     },
+     "device": {
+      "class": "D",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "E"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

@@ -1,0 +1,140 @@
+{
+ "project": {
+  "one_liner": "Strava",
+  "search_acquisition": false
+ },
+ "primary_type": "record",
+ "secondary_type": "community_social",
+ "business": {
+  "data": {
+   "level": "L5"
+  },
+  "state": {
+   "level": "L5"
+  },
+  "action": {
+   "level": "L0"
+  },
+  "network": {
+   "level": "L5"
+  },
+  "workflow": {
+   "level": "L4"
+  },
+  "trust": {
+   "level": "L1"
+  }
+ },
+ "modes": [
+  {
+   "name": "Record workouts",
+   "share": 0.5,
+   "frequency": {
+    "class": "D",
+    "automatable": "must_do_yourself"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "E"
+   },
+   "experience": {
+    "class": "C",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.6,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "D"
+     },
+     "device": {
+      "class": "C",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.4,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "B"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "E"
+  },
+  {
+   "name": "Social feed",
+   "share": 0.5,
+   "frequency": {
+    "class": "D",
+    "automatable": "must_do_yourself"
+   },
+   "intent": {
+    "class": "D",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "B"
+   },
+   "experience": {
+    "class": "D",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 0.7,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    },
+    {
+     "share": 0.3,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "A",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "F"
+  }
+ ],
+ "quality_gates": {},
+ "deliverable_ai_replaceable": false
+}

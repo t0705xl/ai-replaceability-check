@@ -1,0 +1,108 @@
+{
+ "project": {
+  "one_liner": "Discord",
+  "search_acquisition": false
+ },
+ "primary_type": "community_social",
+ "secondary_type": null,
+ "business": {
+  "data": {
+   "level": "L3"
+  },
+  "state": {
+   "level": "L4"
+  },
+  "action": {
+   "level": "L1"
+  },
+  "network": {
+   "level": "L5"
+  },
+  "workflow": {
+   "level": "L3"
+  },
+  "trust": {
+   "level": "L1"
+  }
+ },
+ "modes": [
+  {
+   "name": "Group chat and voice",
+   "share": 0.8,
+   "frequency": {
+    "class": "E",
+    "automatable": "must_do_yourself"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "D",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "F"
+  },
+  {
+   "name": "Browse server channels",
+   "share": 0.2,
+   "frequency": {
+    "class": "D",
+    "automatable": "must_do_yourself"
+   },
+   "intent": {
+    "class": "C",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "D",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "F"
+  }
+ ],
+ "deliverable_ai_replaceable": false,
+ "quality_gates": {}
+}

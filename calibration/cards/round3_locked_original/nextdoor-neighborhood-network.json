@@ -1,0 +1,106 @@
+{
+ "project": {
+  "one_liner": "Nextdoor (neighborhood network)",
+  "search_acquisition": false
+ },
+ "primary_type": "community_social",
+ "secondary_type": "community_info",
+ "business": {
+  "data": {
+   "level": "L3"
+  },
+  "state": {
+   "level": "L2"
+  },
+  "action": {
+   "level": "L1"
+  },
+  "network": {
+   "level": "L4"
+  },
+  "workflow": {
+   "level": "L1"
+  },
+  "trust": {
+   "level": "L2"
+  }
+ },
+ "modes": [
+  {
+   "name": "Browse local updates",
+   "share": 0.6,
+   "frequency": {
+    "class": "C"
+   },
+   "intent": {
+    "class": "C",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "B"
+   },
+   "experience": {
+    "class": "B",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "C"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "F"
+  },
+  {
+   "name": "Ask neighbors for recommendations",
+   "share": 0.4,
+   "frequency": {
+    "class": "A"
+   },
+   "intent": {
+    "class": "A",
+    "content_source": "human_or_real"
+   },
+   "scenario": {
+    "class": "A"
+   },
+   "experience": {
+    "class": "A",
+    "chat_reproducible": false
+   },
+   "steps": [
+    {
+     "share": 1,
+     "input": {
+      "class": "A"
+     },
+     "precision": {
+      "class": "A"
+     },
+     "consumption": {
+      "class": "C"
+     },
+     "device": {
+      "class": "B",
+      "platform_generic": false
+     }
+    }
+   ],
+   "relation": "A"
+  }
+ ],
+ "deliverable_ai_replaceable": false,
+ "quality_gates": {}
+}

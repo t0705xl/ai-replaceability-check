@@ -1,0 +1,76 @@
+{
+  "version": "v4",
+  "types": {
+    "generate":         {"label": "Generate / advise",        "potential": 1},
+    "retrieve":         {"label": "Retrieve / aggregate",     "potential": 1},
+    "community_info":   {"label": "Information community",    "potential": 2},
+    "transact_front":   {"label": "Transaction front end",    "potential": 2},
+    "tool":             {"label": "Tool / editor",            "potential": 3},
+    "record":           {"label": "Record / manage",          "potential": 3},
+    "practice":         {"label": "Practice / habit",         "potential": 3},
+    "transact_own":     {"label": "Merchant of record",       "potential": 4},
+    "community_social": {"label": "Relationship community",   "potential": 4}
+  },
+  "secondary_ratio": 0.3,
+
+  "frontend": [
+    {"key": "input",       "label": "Input cost",            "level": "step", "scores": {"A": 0, "B": 1, "C": 1, "D": 3, "E": 4, "F": 5}},
+    {"key": "frequency",   "label": "Frequency & speed",     "level": "mode", "scores": {"A": 0, "B": 1, "C": 2, "D": 4, "E": 5}},
+    {"key": "precision",   "label": "Precision control",     "level": "step", "scores": {"A": 0, "B": 1, "C": 3, "D": 4, "E": 5}},
+    {"key": "intent",      "label": "Seeking vs browsing",   "level": "mode", "scores": {"A": 0, "B": 1, "C": 3, "D": 4}},
+    {"key": "consumption", "label": "Read once vs monitor",  "level": "step", "scores": {"A": 0, "B": 1, "C": 3, "D": 4, "E": 5}},
+    {"key": "scenario",    "label": "Context of use",        "level": "mode", "scores": {"A": 0, "B": 1, "C": 3, "D": 4, "E": 4}},
+    {"key": "device",      "label": "Device capability",     "level": "step", "scores": {"A": 0, "B": 2, "C": 4, "D": 5}},
+    {"key": "experience",  "label": "Experience as the end", "level": "mode", "scores": {"A": 0, "B": 1, "C": 3, "D": 4, "E": 5}}
+  ],
+  "business": [
+    {"key": "data",     "label": "Proprietary data"},
+    {"key": "state",    "label": "Accumulated state"},
+    {"key": "action",   "label": "Execution"},
+    {"key": "network",  "label": "Network & collaboration"},
+    {"key": "workflow", "label": "Workflow & distribution"},
+    {"key": "trust",    "label": "Trust & accountability"}
+  ],
+
+  "frontend_weights": {
+    "_order": ["input", "frequency", "precision", "intent", "consumption", "scenario", "device", "experience"],
+    "generate":         [3, 2, 2, 1, 2, 1, 1, 3],
+    "retrieve":         [2, 2, 1, 3, 3, 2, 1, 1],
+    "community_info":   [1, 2, 1, 3, 2, 1, 1, 2],
+    "community_social": [1, 3, 1, 3, 2, 1, 2, 3],
+    "tool":             [3, 2, 3, 1, 1, 1, 1, 2],
+    "record":           [2, 3, 2, 1, 3, 2, 2, 1],
+    "practice":         [1, 3, 1, 1, 2, 2, 2, 3],
+    "transact_front":   [2, 2, 1, 3, 2, 2, 1, 1],
+    "transact_own":     [2, 2, 2, 2, 3, 3, 2, 1]
+  },
+  "business_weights": {
+    "_order": ["data", "state", "action", "network", "workflow", "trust"],
+    "generate":         [3, 3, 3, 1, 2, 2],
+    "retrieve":         [3, 1, 2, 1, 3, 2],
+    "community_info":   [3, 1, 1, 3, 1, 2],
+    "community_social": [2, 2, 1, 3, 1, 2],
+    "tool":             [1, 3, 1, 2, 3, 1],
+    "record":           [2, 3, 1, 1, 3, 2],
+    "practice":         [2, 3, 1, 2, 1, 1],
+    "transact_front":   [2, 1, 3, 2, 2, 2],
+    "transact_own":     [2, 1, 3, 3, 1, 3]
+  },
+  "calibration_factors": {
+    "state": 1.5,
+    "input": 1.25, "data": 1.25, "workflow": 1.25,
+    "experience": 1.0, "network": 1.0, "frequency": 1.0, "action": 1.0, "intent": 1.0,
+    "trust": 0.85, "consumption": 0.85,
+    "precision": 0.6,
+    "scenario": 1.0, "device": 1.0
+  },
+
+  "moat_threshold": 4.0,
+  "relation_scores": {"A": 0, "B": 0, "C": 25, "F": 50, "D": 100, "E": 100},
+  "substitute_below": 35,
+  "complement_at": 75,
+  "transaction_dims": ["action", "network", "trust"],
+  "quality_gate_factor": 0.8,
+  "overall_mix": {"potential": 0.15, "business": 0.35, "frontend": 0.35, "relation": 0.15},
+  "levels": ["High risk", "One moat", "Hard to replace"]
+}
